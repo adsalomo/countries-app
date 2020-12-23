@@ -35,7 +35,7 @@ export const CountryApp = () => {
                 </thead>
                 <tbody>
                     {
-                        countries.length > 0 && countries.map(({ country, peoples }, i) => {
+                        countries && countries.length > 0 && countries.map(({ country, peoples }, i) => {
                             return <tr key={i}>
                                 <td>{i + 1}</td>
                                 <td>{country}</td>
