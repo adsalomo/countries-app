@@ -21,6 +21,10 @@ export const CountryApp = () => {
                 setCountries={setCountries}
             />
 
+            {/*Esta tabla se puede realizar en un componente independiente, con esto se facilita 
+            la lectura de este componente
+            Por temas de tiempo no se realiza*/}
+
             <table className="table mt-3">
                 <thead>
                     <tr>
