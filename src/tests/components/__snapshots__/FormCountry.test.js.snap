@@ -1,44 +1,47 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`Prueba componente FormCountry Debe traer la foto del componente 1`] = `
-<form
-  onSubmit={[Function]}
->
-  <div
-    className="form-group"
+<Fragment>
+  <form
+    onSubmit={[Function]}
   >
-    <label>
-      Pais
-    </label>
-    <input
-      autoComplete="off"
-      className="form-control"
-      name="country"
-      onChange={[Function]}
-      placeholder="Escriba pais"
-      type="text"
-    />
-  </div>
-  <div
-    className="form-group"
-  >
-    <label>
-      Habitantes
-    </label>
-    <input
-      autoComplete="off"
-      className="form-control"
-      name="peoples"
-      onChange={[Function]}
-      placeholder="Escriba numero"
-      type="number"
-    />
-  </div>
-  <button
-    className="btn btn-primary btn-block"
-    type="submit"
-  >
-    Nuevo pais
-  </button>
-</form>
+    <div
+      className="form-group"
+    >
+      <label>
+        Pais
+      </label>
+      <input
+        autoComplete="off"
+        className="form-control"
+        name="country"
+        onChange={[Function]}
+        placeholder="Escriba pais"
+        type="text"
+        value=""
+      />
+    </div>
+    <div
+      className="form-group"
+    >
+      <label>
+        Habitantes
+      </label>
+      <input
+        className="form-control"
+        name="peoples"
+        onChange={[Function]}
+        placeholder="Escriba numero"
+        type="number"
+        value=""
+      />
+    </div>
+    <button
+      className="btn btn-primary btn-block"
+      type="submit"
+    >
+      Nuevo pais
+    </button>
+  </form>
+</Fragment>
 `;
